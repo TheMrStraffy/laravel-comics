@@ -8,9 +8,10 @@
     </div>
     <nav>
       <ul>
-        <li><a class="{{ Route::currentRouteName() === 'characters' ? 'active' : '' }}" href="{{ route('characters') }}">CHARACTERS</a></li>
 
-        <li><a class="{{ Route::currentRouteName() === 'comics' ? 'active' : '' }}" href="{{ route('comics') }}">COMICS</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'characters' ? 'active' : '' }}" href="{{ route('characters') }}">CHARACTERS</a></li>
+
+          <li><a class="{{ Route::currentRouteName() === 'comics' ? 'active' : '' }}" href="{{ route('comics') }}">COMICS</a></li>
 
         <li><a class="{{ Route::currentRouteName() === 'movies' ? 'active' : '' }}" href="{{ route('movies') }}">MOVIES</a></li>
 
@@ -37,9 +38,12 @@ header{
   height: 120px;
   background-color: white;
 }
-img{
-  width: 80px;
+.logo{
+    line-height: 120px;
+    height: 100%;
 }
+
+
 nav{
   height: 100%;
 }
