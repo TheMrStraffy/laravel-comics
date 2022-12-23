@@ -35,7 +35,7 @@
         <div class="container d-flex justify-content-between align-content-center h-100">
           <div class="signUp">
 
-          <button>SIGN-UP NOW!</button>
+          <a href=""><button>SIGN-UP NOW!</button></a>
           </div>
 
           <div class="socials">

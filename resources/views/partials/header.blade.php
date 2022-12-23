@@ -2,10 +2,11 @@
 
 <header>
     <div class="container d-flex justify-content-between align-items-center h-100">
-
-    <div class="logo">
-      <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="dc-logo">
-    </div>
+        <a href="{{ route('home') }}">
+            <div class="logo">
+              <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="dc-logo">
+            </div>
+        </a>
     <nav>
       <ul>
 

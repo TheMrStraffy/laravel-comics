@@ -6,7 +6,11 @@
 
     <div class="container d-flex ">
       <div class="row m-auto justify-content-evenly">
+        @foreach ($comics as $comic)
+
         @include('partials.card')
+        @endforeach
+
       </div>
     </div>
       <div class="loadMore d-flex justify-content-center">
